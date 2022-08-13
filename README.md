@@ -17,4 +17,9 @@ from sklearn.preprocessing import StandardScaler,PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 matplotlib inline
 
+df=pd.DataFrame(data)
 df.head(5)
+df.dtypes()
+
+
+
