@@ -28,6 +28,10 @@ x_data=df.drop([“id”],[“unnamed: 0”], axis=1)
 df.describe(x_data)
 
 
+#Module 3
+Val=df.value_counts(“floor”)
+Val.to_frame()
+
 
 
 
